@@ -1,4 +1,4 @@
-# next-video-response
+# video-response-js
 
 A lightweight npm package to simplify returning videos in a chunked format (HTTP 206 Partial Content) in Next.js App Router API routes.
 
@@ -11,7 +11,7 @@ A lightweight npm package to simplify returning videos in a chunked format (HTTP
 ## Installation
 
 ```bash
-npm install next-video-response
+npm install video-response-js
 ```
 
 ## Usage
