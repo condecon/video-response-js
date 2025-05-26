@@ -1,0 +1,26 @@
+{
+  "name": "next-video-response",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "preinstall": "tsc",
+    "prepublish": "tsc"
+  },
+  "author": {
+    "name": "condecon",
+    "email": "dev@condecon.de",
+    "url": "https://github.com/condecon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/condecon/next-video-response"
+  },
+  "license": "MIT",
+  "description": "A lightweight npm package to simplify returning videos in a chunked format (HTTP 206 Partial Content) in Next.js App Router API routes.",
+  "dependencies": {
+    "@types/node": "^22.15.21",
+    "next-video-response": "file:",
+    "typescript": "^5.8.3"
+  }
+}
