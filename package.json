@@ -19,7 +19,7 @@
   "license": "MIT",
   "description": "A lightweight npm package to simplify returning videos in a chunked format (HTTP 206 Partial Content) in Next.js App Router API routes.",
   "dependencies": {
-    "@types/node": "^22.15.21",
+    "@types/node": "^22.15.30",
     "next-video-response": "file:",
     "typescript": "^5.8.3"
   },
